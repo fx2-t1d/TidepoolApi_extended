@@ -1,0 +1,21 @@
+title: Biometric Metric
+description: >-
+  The body-state quantity that was measured.
+  Glucose is also a biometric, but it keeps its own Tidepool types (`cbg`, `smbg`) and is never represented here.
+type: string
+enum:
+  - bloodOxygen
+  - bloodPressureDiastolic
+  - bloodPressureSystolic
+  - bodyTemperature
+  - bodyWeight
+  - heartRate
+  - heartRateVariability
+  - respiratoryRate
+  - restingHeartRate
+  - sleepDuration
+  - stressLevel
+  - activeEnergy
+  - steps
+x-tags:
+  - Data

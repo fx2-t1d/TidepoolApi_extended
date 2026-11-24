@@ -5,6 +5,7 @@ type: string
 enum:
   - alert
   - basal
+  - biometric
   - bloodKetone
   - bolus
   - cbg
