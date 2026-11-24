@@ -1,0 +1,18 @@
+title: Biometric Units
+description: >-
+  Units of the measurement. Each metric accepts exactly one unit, listed in the Biometric data type documentation.
+type: string
+enum:
+  - '%'
+  - bpm
+  - breaths/min
+  - celsius
+  - count
+  - kcal
+  - kg
+  - mmHg
+  - minutes
+  - ms
+  - score
+x-tags:
+  - Data

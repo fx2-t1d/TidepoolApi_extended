@@ -186,6 +186,8 @@
               label: Food Consumption (`food`)
             - page: docs/device-data/data-types/water.md
               label: Water Consumption (`water`)
+            - page: docs/device-data/data-types/biometric.md
+              label: Biometric (`biometric`)
             - page: docs/device-data/data-types/activity-physical.md
               label: Physical Activity (`physicalActivity`)
             - page: docs/device-data/data-types/insulin.md

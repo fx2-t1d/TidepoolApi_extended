@@ -1,0 +1,30 @@
+title: Biometric
+description: >-
+  A measurement of the body's state at a point in time.
+  Glucose readings are biometric data but are represented by the `cbg` and `smbg` types; all other metrics use this type.
+allOf:
+  - $ref: '../base.v1.yaml'
+  - type: object
+    properties:
+      type:
+        type: string
+        enum:
+          - biometric
+      metric:
+        $ref: './metric.v1.yaml'
+      amount:
+        allOf:
+          - $ref: '../amount.v1.yaml'
+          - type: object
+            properties:
+              units:
+                $ref: './units.v1.yaml'
+              value:
+                type: number
+                format: double
+    required:
+      - type
+      - metric
+      - amount
+x-tags:
+  - Data

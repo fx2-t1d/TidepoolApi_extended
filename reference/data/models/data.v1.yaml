@@ -7,6 +7,7 @@ oneOf:
   - $ref: './basal/basal-scheduled.v1.yaml'
   - $ref: './basal/basal-suspend.v1.yaml'
   - $ref: './basal/basal-temporary.v1.yaml'
+  - $ref: './biometric/biometric.v1.yaml'
   - $ref: './blood/continuousglucose.v1.yaml'
   - $ref: './blood/selfmonitoredglucose.v1.yaml'
   - $ref: './blood/ketone.v1.yaml'
