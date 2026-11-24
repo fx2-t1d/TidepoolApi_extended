@@ -17,5 +17,19 @@ enum:
   - stressLevel
   - activeEnergy
   - steps
+x-metric-units:
+  activeEnergy: kcal
+  bloodOxygen: '%'
+  bloodPressureDiastolic: mmHg
+  bloodPressureSystolic: mmHg
+  bodyTemperature: celsius
+  bodyWeight: kg
+  heartRate: bpm
+  heartRateVariability: ms
+  respiratoryRate: breaths/min
+  restingHeartRate: bpm
+  sleepDuration: minutes
+  steps: count
+  stressLevel: score
 x-tags:
   - Data
